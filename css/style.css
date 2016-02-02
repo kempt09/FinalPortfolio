@@ -16,7 +16,7 @@ a:active {
 .zero {
     padding: 0;
     margin: 0;
-    width:100%;
+    border: none;
 }
 
 /*navigation*/
@@ -25,7 +25,7 @@ a:active {
     width: 100%;
     border: 0;
     border-radius: 0;
-    margin-bottom: 50px;
+    position: fixed;
 }
 
 .navbar-toggle,
@@ -87,22 +87,15 @@ a:active {
 
 /*projects*/
 
-.work {
-    padding-left: 0;
-    margin-left: 0;
-    margin-right: 20px;
-}
-
-#top-ul {
-    padding-top: 100px;
-}
-.projects {
-    width: 25%;
-}
-
-#bottom-ul {
+.portfolioPage {
     padding-top: 50px;
-    padding-bottom: 50px;
+}
+.img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
 /*About*/
