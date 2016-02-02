@@ -166,3 +166,7 @@ textarea,
 .social a:hover {
     color: grey;
 }
+
+.resumePage {
+    padding-top: 50px;
+}
