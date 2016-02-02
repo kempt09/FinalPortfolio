@@ -2,6 +2,10 @@ html,
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+body {
+    background: url("../images/cheap_diagonal_fabric.png") repeat;
+}
 ul,
 li {
     list-style: none;
