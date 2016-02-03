@@ -33,36 +33,48 @@ a:active {
 }
 
 .navbar-toggle,
-.navbar-toggle span{
-    color: black;
-    background: white;
+.navbar-toggle span {
+    color: #000000;
+    background: #ffffff;
 }
 
 #nav-link li a {
-    color: black
+    color: #000000;
 }
 
 #nav-link li a:hover {
-    color: grey;
+    color: #5A6351;
 }
 
 
 /*landing*/
 
 #name-title {
-    color: black;
+    color: #000000;
 }
 
 #name-title span {
-    color: black;
+    color: #5A6351;
     font-weight: 100;
 }
 
-#feature {
-    background: url("../images/freelanceheader.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 705px;
+#landing{
+    background-color: rgba(90,91,89, .5);
+    margin-top: 18%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+}
+
+#landing-greeting {
+    color: #000000;
+}
+#landing-message {
+    margin-top: 8%;
+    color: #ffffff;
+}
+
+#landing-message span {
+    color: #000000;
 }
 
 #call {
@@ -72,21 +84,12 @@ a:active {
     width: 120px;
     min-width: 48px;
     height: auto;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
 }
 
 #call:hover {
-    color: #000000;
-    background: rgba(250,250,250, .4);
-}
-
-#landing-greeting {
-    padding-top: 40%;
-    color: #ffffff;
-}
-#landing-message {
-    margin-top: 10%;
-    color: #ffffff;
+    color: #5A6351;
+    background: #ffffff;
 }
 
 /*projects*/
@@ -119,27 +122,40 @@ a:active {
     padding: 0;
     margin: 0;
     border: none;
+    border-radius: 5px;
 }
 
 /*About*/
+.light {
+    color: rgba(90,91,89, .4);
+}
+.medium {
+    color: rgba(90,91,89, .7);
+}
+.dark {
+    color: rgb(90,91,89);
+}
 
 .skills {
     margin-top: 100px;
 }
 
 .border-left {
-    border-left: 2px solid rgba(131,156,165, .3);
+    border-left: 2px solid rgba(90,91,89, .3);
 }
 
 #about {
-    height: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 8%;
+    padding-bottom: 5%;
     line-height: 2;
 }
 
+#about h2 {
+    color: #ffffff;
+}
+
 .aboutMe {
-    margin-top: 30px;
+    margin-top: 2%;
 }
 
 /*Contact*/
@@ -161,13 +177,19 @@ a:active {
 
 input,
 textarea,
-#form
+#form-button
 {
     opacity: .5;
+    color: #5A6351;
 }
 
-#form {
+#form-button {
     margin-top: 20px;
+}
+
+#form-button:hover {
+    color: #ffffff;
+    background: #5A6351;
 }
 /*footer*/
 #footer {
@@ -177,10 +199,10 @@ textarea,
     padding-top: 10px;
 }
 .social a {
-    color: black;
+    color: #5A6351;
 }
 .social a:hover {
-    color: grey;
+    color: #000000;
 }
 
 /* Resume */
